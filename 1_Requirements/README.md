@@ -28,5 +28,3 @@ The primary objective of the design of course, is to deliver the requirements as
 # Design Process-
  The system design process is an execrise of specifying how,the system will work.
 
-nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
-jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjs
