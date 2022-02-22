@@ -10,5 +10,11 @@ https://api.codiga.io/project/31066/score/svg
 
 
 <a href="https://app.codiga.io/public/user/github/sivasaib">
-   <img src="https://api.codiga.io/public/badge/user/github/sivasaib?style=light" alt="codiga badge" />
+   <img src="https://api.codiga.io/project/31066/score/svg" alt="codiga badge" />
+</a>
+
+<br>
+
+<a href="https://api.codiga.io/project/31066/status/svg">
+   <img src="https://api.codiga.io/project/31066/status/svg" alt="codiga badge" />
 </a>
