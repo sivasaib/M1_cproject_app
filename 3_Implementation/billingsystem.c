@@ -1,3 +1,13 @@
+/**
+ * @file billingsystem.c
+ * @author your name (you@domain.com)
+ * @brief 
+ * @version 0.1
+ * @date 2022-02-22
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
@@ -49,11 +59,16 @@ void printMeals()
       printf(" \t\t\t 3- Fry chicken\tRS 177\n");
       printf(" \t\t\t 4- Prawn fry\tRS 220\n");
       printf(" \t\t\t 5- Chicken chill\tRS 150\n");
-      printf(" \t\t\t 6- \t\tRS 120\n");
+      printf(" \t\t\t 6- Apollo fish\t\tRS 120\n");
       printf(" \t\t\t 7- Chicken Briyani\tRS 250\n");
             
       printf("\n");
 }
+
+/**
+ * @brief 
+ * 
+ */
 void orderMeals()
 {
 	double totalPriceForAdult, totalPriceForChildren;
@@ -71,7 +86,7 @@ void orderMeals()
      printf(" \t\t\tadults\t\t%d\t\t%5.2f\n",adultNumber,totalPriceForAdult);
      printf(" \t\t\tchildren\t%d\t\t%5.2f\n",childNumber,totalPriceForChildren);
      printf(" \t\t\tTotal bill\t\t\t%5.2f\n",allPayment );
-          
+
      if(allPayment < 10)
 		 discount=((allPayment * 0.5)/100);
      else if(allPayment>= 10 && allPayment<20)
@@ -86,6 +101,11 @@ void orderMeals()
           printf(" \t\t\tTotal bill after discount\t%5.2f\n",allPayment-discount);
 
 }
+/**
+ * @brief 
+ * 
+ * @return double 
+ */
 double orderForAdult()
 {
      int menuOption,i,amount;
@@ -128,6 +148,11 @@ double orderForAdult()
      
      return totalAllPerson + ((totalAllPerson * tax) / 100);
 }
+/**
+ * @brief 
+ * 
+ * @return double 
+ */
 double orderForChildren()
 {
        int menuOption,i,amount;
