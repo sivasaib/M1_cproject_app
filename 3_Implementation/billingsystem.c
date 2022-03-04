@@ -8,9 +8,7 @@
  * @copyright Copyright (c) 2022
  * 
  */
-#include<stdio.h>
-#include<string.h>
-#include<stdlib.h>
+#include"billing.h"
 
 int price[7] = {200,180,177,220,150 ,120,250 };
 double mealTaxPrices[7];
@@ -88,13 +86,13 @@ void orderMeals()
      printf(" \t\t\tTotal bill\t\t\t%5.2f\n",allPayment );
 
      if(allPayment < 10)
-		 discount=((allPayment * 0.5)/100);
+		 discount=((allPayment * 50)/100);
      else if(allPayment>= 10 && allPayment<20)
-          discount=((allPayment * 1)/100);
+          discount=((allPayment * 10)/100);
      else if(allPayment>= 20 && allPayment<30)
-          discount=((allPayment * 1.5)/100);
+          discount=((allPayment * 15)/100);
      else if(allPayment>= 30 && allPayment<40)
-          discount=((allPayment * 2.0)/100);
+          discount=((allPayment * 20)/100);
 	 else 
 		  discount= ((allPayment * 5.0)/100);
 
